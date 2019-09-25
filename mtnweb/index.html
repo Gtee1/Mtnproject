@@ -4,11 +4,12 @@
 	<title>my first git page</title>
 
 	<link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css">
-
-
 <style type="text/css">
 	
-
+.nav-link{
+	color: white;
+}
+	
   .item{
     height: 700px;
     width: 100%;
@@ -27,11 +28,27 @@
 
 </head>
 <body>
-
-
-
 <div class="container-fluid">
 
+	<div class="row">
+<ul class="nav nav-tabs" style="background-color:red">
+  <li class="nav-item">
+    <a class="nav-link active" href="#">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Trending</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Celebrity gist</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Quotes</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+  </li>
+</ul>
+		
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
@@ -65,21 +82,21 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
+
 </div>
+
+</div>
+
+
+
+<div class="container">
+<div class="row">
+
 
 <div class="space">
 
 </div>
 
-
-<div class="container">
-
-<div class="row">
-	<div class="col-md-4">
-
-It’s important to understand that Git’s idea of a “working copy” is very different from the working copy you get by checking out source code from an SVN repository. Unlike SVN, Git makes no distinction between the working copies and the central repository—they're all full-fledged
-
-	</div>
 
 <div class="col-md-4">
 
@@ -94,7 +111,6 @@ It’s important to understand that Git’s idea of a “working copy” is very
 </div>
 
 </div>
-
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
